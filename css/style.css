@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: rgb(44, 44, 44);
+    position: sticky;
+    top: 0;
+}
+
+.nav_link {
+    color: rgb(228, 228, 228);
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    color: rgb(0, 196, 240);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 63px;
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.nav__item:hover {
+    color: rgb(0, 196, 240);
+}
+
+.logo__text {
+    color: rgb(255, 255, 255);
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+
+.main {}
+
+.hero-block {
+    background: rgb(44, 44, 44);
+}
+
+.container__hero-block {
+    display: flex;
+    align-items: center;
+    padding: 66px 0 67px;
+}
+
+.hero-block__img {}
+
+.hero-block__contend {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.hero-block__title {
+    margin-bottom: 83px;
+
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-block__text {
+    color: rgb(228, 228, 228);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.hero-block__link {
+    border-radius: 6px;
+
+    box-shadow: 0px 2px 13px 0px rgba(226, 158, 0, 0.48);
+    /* orange */
+    background: linear-gradient(135.00deg, rgb(226, 163, 0), rgb(226, 149, 0) 100%);
+    color: rgb(0, 0, 0);
+    font-family: Nico Moji;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    padding: 14px 22px;
+
+    text-decoration: none;
+}
+
+
+
+.about {
+    background: rgb(62, 62, 62);
+}
+
+.about__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container__about {
+    padding: 60px 0 50px;
+}
+
+.about__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 97px;
+}
+
+.content__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.line__out {
+    width: 356px;
+    height: 10px;
+
+    background: rgb(0, 196, 240);
+}
+
+.line__in_html {
+    width: 326px;
+    height: 10px;
+
+    background: rgb(44, 44, 44);
+}
+
+
+.line__in_css {
+    width: 342px;
+    height: 10px;
+
+    background: rgb(44, 44, 44);
+}
+
+
+.line__in_figma {
+    width: 269px;
+    height: 10px;
+
+    background: rgb(44, 44, 44);
+}
+
+.content__text {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    margin-bottom: 12px;
+}
+
+.content__item {
+    margin-bottom: 25px;
+}
+
+.content__title {
+    margin-bottom: 72px;
+}
+
+
+.content__item {
+    list-style: none;
+}
+
+
+.video {
+    background-color: rgb(44, 44, 44);
+}
+
+
+.container__video {
+    padding: 60px 0 50px;
+}
+
+.video__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 46px;
+}
+
+.video__video {
+    width: 100%;
+    height: 661px;
+    border: 50px rgb(65, 65, 65) solid;
+    border-radius: 29px;
+    box-sizing: border-box;
+}
+
+.gallery {
+    background: rgb(62, 62, 62);
+    padding: 65px 0 70px;
+
+}
+
+.gallery__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+
+.container__gallery{
+}
+.gallery__list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.gallery__item {
+    width: 32%;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.gallery__img {
+    width: 100%;
+}
+
+
+
+
+.footer {
+    background: rgb(44, 44, 44);
+
+}
+
+.container__footer {
+    padding: 50px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__list {
+    display: flex;
+    list-style: none;
+}
+
+.footer__title {
+    color: rgb(228, 228, 228);
+    font-family: Nico Moji;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.footer__text {
+    color: rgb(255, 255, 255);
+    font-family: Nico Moji;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 164.06%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer__item {
+    margin-right: 40px;
+}
+
+.burger {
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+@media (max-width: 834px) {
+
+    /* heder*/
+    .nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .container__header {
+        width: 603px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo__exit {
+        display: none;
+    }
+
+    /*home*/
+
+    .hero-block__img {
+        width: 295px;
+        height: 295px;
+    }
+
+    .hero-block__title {
+        font-size: 40px;
+
+    }
+
+    .hero-block__text {
+        font-size: 18px;
+    }
+
+    .hero-block__content {
+        width: 324px;
+    }
+
+    .container__hero-block {
+        max-width: 628px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .hero-block__title {
+        margin: 0 0 10px 0;
+    }
+
+    /*about*/
+
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about__title {
+        margin-bottom: 20px;
+    }
+
+    .container__about {
+        max-width: 628px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .about__content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .content__img {
+        width: 500px;
+        height: 455px;
+        margin: 0 auto;
+    }
+
+    /*video*/
+
+    .video {}
+
+    .video__video {
+        width: 100%;
+        height: 328.73px;
+        margin: 0 auto;
+        border: 25px rgb(65, 65, 65) solid;
+        box-sizing: border-box;
+    }
+
+    .container__video {
+        max-width: 628px;
+        justify-content: center;
+
+    }
+
+    .video__title {
+        font-size: 48px;
+        
+    }
+
+    /*gallery*/
+
+    .container__gallery{
+        max-width: 628px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    
+    .gallery__list{
+
+    }
+
+    .gallery__item{
+        width: 628px;
+    }
+
+
+    /*footer*/
+
+    .container__footer{
+        max-width: 658px;
+    }
+}
